@@ -212,8 +212,7 @@ a   { text-decoration: none; color: inherit; transition: color 0.2s; }
 
 /* Logo */
 .logo-wrap {
-  width: clamp(380px, 62vw, 800px);
-  margin-bottom: 1.8rem;
+  width: clamp(360px, 56vw, 740px);
 }
 
 .logo-img {
