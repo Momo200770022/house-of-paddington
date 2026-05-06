@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The House of Paddington — London</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAV ─────────────────────────────────────────────────────────── -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <div class="nav-ornament">✦</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#visit">Visit Us</a></li>
+      </ul>
+      <div class="nav-ornament">✦</div>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#visit">Visit Us</a>
+    </div>
+  </nav>
+
+  <!-- ── HERO ─────────────────────────────────────────────────────────── -->
+  <section id="home" class="hero">
+    <div class="hero-bg-wrap">
+      <img src="hero-bg.jpg" alt="" class="hero-bg" />
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="hero-content">
+      <!-- Logo: save your image as logo.png in this folder -->
+      <div class="logo-wrap">
+        <img
+          src="logo.png"
+          alt="The House of Paddington"
+          class="logo-img"
+          onerror="this.style.display='none'; document.getElementById('logoFallback').style.display='flex';"
+        />
+        <div class="logo-fallback" id="logoFallback">
+          <div class="logo-fallback-inner">
+            <p class="logo-hint">[ Place your logo image here as <strong>logo.png</strong> ]</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-divider">
+        <span class="divider-line"></span>
+        <span class="divider-icon">❧</span>
+        <span class="divider-line"></span>
+      </div>
+      <p class="hero-tagline">Paddington · London</p>
+      <a href="#about" class="hero-cta">Discover Our Story</a>
+    </div>
+
+    <div class="hero-scroll">
+      <div class="scroll-mouse"><div class="scroll-dot"></div></div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ─────────────────────────────────────────────────────────── -->
+  <section id="about" class="about-section">
+    <div class="about-deco-top">✦ &nbsp; ✦ &nbsp; ✦</div>
+
+    <div class="container about-container">
+
+      <div class="about-text-block reveal">
+        <p class="eyebrow-label">Est. in the Heart of London</p>
+        <h1 class="shop-name">The House of<br/><em>Paddington</em></h1>
+        <div class="title-rule">
+          <span></span><span class="rule-diamond">◆</span><span></span>
+        </div>
+        <div class="about-body">
+          <p>
+            Nestled in the storied streets of Paddington, London, <em>The House of Paddington</em> is far more than a souvenir shop — it is a lovingly curated sanctuary of British heritage, timeless charm, and authentic artistry. Founded with a deep reverence for the stories that have shaped this great city, we bring together an exquisite collection of keepsakes, gifts, and treasures that honour the spirit of London in every detail.
+          </p>
+          <p>
+            From hand-selected Paddington Bear mementos — each bearing the warmth and whimsy that have made the beloved bear an icon of Britishness — to finely crafted memorabilia celebrating London's royal history, iconic landmarks, and enduring culture, every piece in our collection has been chosen with discernment and care.
+          </p>
+          <p>
+            We believe that a truly special souvenir is not merely an object, but a vessel of memory — a piece of London carried home in the hands and held in the heart. Step inside, and allow us to help you find yours.
+          </p>
+        </div>
+        <div class="about-signature">— The House of Paddington</div>
+      </div>
+
+      <div class="about-images reveal">
+        <div class="about-img-frame main-frame">
+          <img src="about-main.jpg" alt="Inside our shop" />
+        </div>
+        <div class="about-img-frame side-frame">
+          <img src="about-side.jpg" alt="Our curated collection" />
+        </div>
+      </div>
+
+    </div>
+
+    <div class="about-deco-bottom">✦ &nbsp; ✦ &nbsp; ✦</div>
+  </section>
+
+  <!-- ── GALLERY ─────────────────────────────────────────────────────── -->
+  <section id="gallery" class="gallery-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="eyebrow-label">A Glimpse Inside</p>
+        <h2 class="section-heading">Our World</h2>
+        <div class="title-rule">
+          <span></span><span class="rule-diamond">◆</span><span></span>
+        </div>
+        <p class="section-sub">Every corner of our shop has been thoughtfully designed to evoke the warmth, grandeur, and quiet elegance of a classic London establishment.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="g-item g-tall reveal">
+          <img src="gallery-1.jpg" alt="Shop entrance" />
+          <div class="g-caption">Our Entrance</div>
+        </div>
+        <div class="g-item reveal">
+          <img src="gallery-2.jpg" alt="Display shelves" />
+          <div class="g-caption">Curated Displays</div>
+        </div>
+        <div class="g-item reveal">
+          <img src="gallery-3.jpg" alt="Gold decor" />
+          <div class="g-caption">Gold & Mahogany Finishes</div>
+        </div>
+        <div class="g-item g-wide reveal">
+          <img src="gallery-4.jpg" alt="Interior view" />
+          <div class="g-caption">The Main Floor</div>
+        </div>
+        <div class="g-item reveal">
+          <img src="gallery-5.jpg" alt="Antique details" />
+          <div class="g-caption">Heritage Keepsakes</div>
+        </div>
+        <div class="g-item reveal">
+          <img src="gallery-6.jpg" alt="Paddington collection" />
+          <div class="g-caption">The Paddington Collection</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── VISIT ─────────────────────────────────────────────────────────── -->
+  <section id="visit" class="visit-section">
+    <div class="visit-bg">
+      <img src="visit-bg.jpg" alt="" />
+      <div class="visit-overlay"></div>
+    </div>
+    <div class="container visit-inner">
+
+      <div class="visit-card reveal">
+        <div class="visit-card-header">
+          <p class="eyebrow-label light">Come & See Us</p>
+          <h2 class="section-heading light">Visit Our Shop</h2>
+          <div class="title-rule light">
+            <span></span><span class="rule-diamond">◆</span><span></span>
+          </div>
+        </div>
+
+        <div class="visit-details">
+          <div class="visit-item">
+            <div class="visit-icon">📍</div>
+            <div>
+              <h4>Address</h4>
+              <p>152 Praed Street, Paddington<br />London, W2 1RL<br />United Kingdom</p>
+            </div>
+          </div>
+
+          <div class="visit-item">
+            <div class="visit-icon">🕐</div>
+            <div>
+              <h4>Opening Hours</h4>
+              <p>Open Every Day<br />8:00am – 11:00pm</p>
+            </div>
+          </div>
+
+          <div class="visit-item">
+            <div class="visit-icon">📞</div>
+            <div>
+              <h4>Phone</h4>
+              <p>
+                <a href="tel:+447951315859">+44 7951 315 859</a>
+                <span class="phone-label">UK</span>
+              </p>
+              <p>
+                <a href="tel:+905418384830">+90 541 838 4830</a>
+                <span class="phone-label">TR</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="visit-item">
+            <div class="visit-icon">✉️</div>
+            <div>
+              <h4>Email</h4>
+              <p><a href="mailto:houseofpaddington@gmail.com">houseofpaddington@gmail.com</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── FOOTER ─────────────────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="footer-ornament">✦ &nbsp; ✦ &nbsp; ✦</div>
+    <div class="footer-name">The House of Paddington</div>
+    <p class="footer-tagline">Paddington · London · Est. 1987</p>
+    <div class="footer-divider"></div>
+    <div class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#visit">Visit Us</a>
+    </div>
+    <p class="footer-copy">© 2025 The House of Paddington. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
