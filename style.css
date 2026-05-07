@@ -213,9 +213,9 @@ a   { text-decoration: none; color: inherit; transition: color 0.2s; }
 
 /* Logo */
 .logo-wrap {
-  width: clamp(440px, 68vw, 920px);
+  width: clamp(380px, 58vw, 780px);
   position: relative;
-  top: 16rem;
+  top: 13rem;
 }
 
 .logo-img {
