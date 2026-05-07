@@ -168,7 +168,7 @@ a   { text-decoration: none; color: inherit; transition: color 0.2s; }
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  padding-bottom: 30vh;
+  padding-bottom: 20vh;
 }
 
 .hero-bg-wrap {
@@ -215,7 +215,7 @@ a   { text-decoration: none; color: inherit; transition: color 0.2s; }
 .logo-wrap {
   width: clamp(440px, 68vw, 920px);
   position: relative;
-  top: 14rem;
+  top: 10rem;
 }
 
 .logo-img {
