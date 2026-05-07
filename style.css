@@ -215,7 +215,7 @@ a   { text-decoration: none; color: inherit; transition: color 0.2s; }
 .logo-wrap {
   width: clamp(380px, 58vw, 780px);
   position: relative;
-  top: 15rem;
+  top: 13rem;
 }
 
 .logo-img {
