@@ -203,6 +203,7 @@ a   { text-decoration: none; color: inherit; transition: color 0.2s; }
   padding: 0 2rem;
   gap: 1.2rem;
   animation: fadeIn 1.4s ease 0.3s both;
+  transform: translateY(-10vh);
 }
 
 @keyframes fadeIn {
