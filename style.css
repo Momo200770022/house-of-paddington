@@ -214,6 +214,8 @@ a   { text-decoration: none; color: inherit; transition: color 0.2s; }
 /* Logo */
 .logo-wrap {
   width: clamp(440px, 68vw, 920px);
+  position: relative;
+  top: 4rem;
 }
 
 .logo-img {
